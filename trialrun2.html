@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LinkTree2</title>
+	<style type="text/css">
+		body{
+        background-image: url(vicky.JPG	);
+			background-size: cover;
+    	}
+		.instagram{
+			display: flex;
+			justify-content: center;
+			/*align-self: center;
+			width: 60vw;*/
+		}
+		.subclass {
+			display: flex;
+			justify-content: space-between;
+/*			position: relative;*/
+			border: 2px solid black;
+			background-color: whitesmoke;
+			color: black;
+			border-radius: 13px;
+			font-size: 22px;
+			box-shadow: 0px 1px 5px 1px;
+			text-overflow: ellipsis;
+			align-items: center;
+		}
+		.image{
+			align-self: flex-start;
+		}
+		a:link {
+		  	text-decoration: none;
+		}
+		.grid {
+			display: grid;
+			grid-template-columns: 20% 1fr 20%;
+		}
+		@media (max-width: 750px){
+	 		.grid{
+				grid-template-columns: 20% 1fr 20%;
+				 } }
+		.navbar {
+			height: 100vh;
+		}
+		.main {
+			height: 100vh;
+/*			background-color: orangered;*/
+
+		}
+		.right {
+			height: 100vh;
+		}
+		container {
+			display: grid;
+			grid-template-rows: 55px 55px 55px 55px 55px;
+			row-gap: 9px;
+		}
+		.subclass img {
+			flex: 0 0 auto;
+		}
+	.subclass p {
+		position: absolute;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    text-align: center;
+	}
+	.my_Image{
+		display: flex;
+  		margin-top: 10vh;
+}
+	.text{
+		display: flex;
+		align-items: start;
+	}
+	#photo {
+		margin-left: auto;
+		margin-right: auto; 
+		border-radius: 100px
+	}
+	#texted {
+		margin-bottom: 100px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		font-size: 33px; 
+		font-weight: 700; 
+		color: white;
+	}		
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="navbar">
+			
+		</div>
+		<div class="main">
+			<div class="my_Image">
+				<img src="d(35).jpg" width = "120px" height="120px" id="photo"></image>
+			</div>
+			<div class="text">
+				<p id="texted">&#x40Vivek Jha</p>
+			</div>	
+			<container>
+				<a href="https://www.instagram.com/vijha742"><div class="subclass">
+					<img width="50px" height="50px" class="image" src="instagramsvg.png"></img><p>INSTAGRAM</p>
+				</div></a>
+				<a href="https://twitter.com/OTeleosis"><div class="subclass">
+					<img width="50px" height="50px" class="image" src="x.png"></img>
+							<p>
+								X
+							</p>
+				</div></a>
+				<a href="http://www.linkedin.com/in/vikas-jha-007b32283"><div class="subclass">
+					<img width="50px" height="50px" class="image" src="linked.in.png"></img>
+						<p>
+							LinkedIn
+						</p>
+				</div></a>
+				<a href="https://www.quora.com/profile/Vikas-Jha-547"><div class="subclass">
+					<img width="50px" height="50px" class="quora" src="quora.png"></img>
+						<p>
+							QUORA
+						</p>
+						
+				</div></a>
+					<a href="https://github.com/vijha742"><div class="subclass">
+					<img width="50px" height="50px" class="github" src="github.png"></img>
+						<p>
+							GITHUB
+						</p>
+				</div></a>
+			</container>
+		</body>
+	</html>
